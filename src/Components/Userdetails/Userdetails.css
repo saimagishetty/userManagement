@@ -1,0 +1,126 @@
+.Userdetails {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.main-0{
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-2 {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.main-3 {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.aaa {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* CSS */
+.button-6 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.button-6:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+.img-details{
+    width: 250px;
+}
+@media (max-width: 860px) {
+    .main-3{
+        font-size: 35px !important;
+    }
+    .aaa {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .img-details{
+        width: 200px;
+    }
+  }
+  @media (max-width: 630px) {
+    .main-3{
+        font-size: 25px !important;
+    }
+    .aaa {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .img-details{
+        width: 150px;
+    }
+  }
+  @media (max-width: 470px) {
+    .main-3{
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+    .aaa {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .img-details{
+        width: 100px;
+    }
+  }
